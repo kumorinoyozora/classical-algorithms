@@ -10,9 +10,8 @@ from typing import List
 #         left, right = 0, 1
 #         maxP = 0
 #         while right < len(prices):
-#             if prices[left] < prices[right]:
-#                 profit = prices[right] - prices[left]
-#                 maxP = max(maxP, profit)
+#             if prices[left] < prices[right]: 
+#                 maxP = max(maxP, prices[right] - prices[left])
 #             else:
 #                 left = right
 #             right += 1
